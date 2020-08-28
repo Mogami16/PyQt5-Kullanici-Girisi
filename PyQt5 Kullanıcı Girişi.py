@@ -133,7 +133,7 @@ class Pencere(QtWidgets.QWidget):
 
 		mesaj = MIMEMultipart()
 
-		mesaj["From"] = "bedirhanyilmaz16@gmail.com"
+		mesaj["From"] = "eposta"
 		mesaj["To"] = eposta
 		mesaj["Subject"] = "Aktivasyon Kodu"
 
